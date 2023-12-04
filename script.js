@@ -34,6 +34,9 @@ window.onscroll = () => {
 
     header.classList.toggle('sticky', windows.scrollY > 100);
 
+    menuIcon.classList.remove('bx-x');
+    navbar.classList.remove('active');
+
 };
 
 // Scroll REveal 
