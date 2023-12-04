@@ -34,9 +34,6 @@ window.onscroll = () => {
 
     header.classList.toggle('sticky', windows.scrollY > 100);
 
-    // Remove toogle icon and navbar when click navbar's link----->
-    menuIcon.classList.remove('bx-x');
-    navbar.classList.remove('active');
 };
 
 // Scroll REveal 
