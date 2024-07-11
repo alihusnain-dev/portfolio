@@ -208,7 +208,7 @@ span {
 .heading {
     text-align: center;
     font-size: 4rem;
-    display: none;
+    /*display: none;*/
 }
 
 .about-content h2 {
