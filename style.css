@@ -56,7 +56,8 @@
 
 html {
     font-size: 62.5%;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 body {
