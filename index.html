@@ -162,17 +162,21 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
 
-        <form action="#">
+        <form form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="d91d2a40-1e1e-4e89-8832-3cc7d737eb6e">
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="text" placeholder="E-mail">
+                <input type="text" placeholder="Full Name" name="Full_Name" required>
+                <input type="text" placeholder="E-mail" name="Email" required>
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Mobile">
-                <input type="text" placeholder="Email Subject">
+                <input type="number" placeholder="Mobile" name="Mobile Number" required>
+                <input type="text" placeholder="Email Subject (optional)" name="Email_Subject">
             </div>
-            <textarea name="" id="" cols="30" rows="6" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="btn" >
+            <textarea cols="30" rows="6" placeholder="Your Message" name="Message" required></textarea>
+            <!-- Honeypot Spam Protection -->
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            <input type="input" name="Web-Name" value="Portfolio-MAH Coder" class="hidden" style="display: none;">
+            <input type="submit" value="Send Message" class="btn">
     </section>
 
     <!-- Footer Design  -->
