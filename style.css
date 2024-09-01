@@ -64,6 +64,7 @@ body {
     background: var(--bg-color);
     color: var(--text-color);
     scrollbar-base-color: var(--bg-color);
+    overflow: hidden;
 }
 section{
     border-bottom: 1px solid var(--main-color);
