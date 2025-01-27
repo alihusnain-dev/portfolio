@@ -427,8 +427,10 @@ font-size: 1.6rem;
     background: var(--main-color);
 
 }
-
-
+/* Bug Div in the last of the portfolio */
+#loom-companion-mv3{
+    display: none;
+}
 /* RESPONSIVE DIRECTORY CSS for PORTFOLIO  */
 
 @media (max-width: 1200px) {
